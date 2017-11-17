@@ -43,4 +43,8 @@ contract MyBankAccount {
         _;
     }
    
+   //Optional: add these events to notify others when a user withdraws/deposits.  Not enabled by default: why is it really necessary?
+   //event depositComplete(address sender, uint256 value);
+   //event withdrawComplete(address sender, uint256 value);
+   //It is up to you whether or not to activate these.  Please note: they MUST be called in order to work.
 }
