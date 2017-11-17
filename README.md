@@ -8,4 +8,5 @@ When a user calls `deposit()`, they add their address to the list, and the amoun
 
 Any user can withdraw their balance at any time, by using `withdraw(uint256 amount)`.  
 
-**NOTE: Amounts are in wei, NOT Ether.  This includes the `initAmount` argument, AND the `amount` argument in `withdraw`.  PLAN ACCORDINGLY**
+**NOTE: Amounts are in wei, NOT Ether.  This includes the `initAmount` argument, AND the `amount` argument in `withdraw`.  
+-----PLAN ACCORDINGLY!-----**
